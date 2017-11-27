@@ -8,8 +8,8 @@ input a file containing
 name
 state_a
 state_b
-:
-:
+   :
+   :
 ```
 Produce the file name.h, which contains
 
