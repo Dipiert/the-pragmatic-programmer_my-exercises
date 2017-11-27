@@ -16,10 +16,10 @@ Produce the file name.h, which contains
 ```
 extern const char* NAME_names[];
 typedef enum {
-state_a,
-state_b,
-:
-:
+    state_a,
+    state_b,
+      :
+      :
 } NAME;
 ```
 
@@ -27,9 +27,9 @@ and the file name.c, which contains
 
 ```
 const char* NAME_names[] = {
-"state_a",
-"state_b",
-:
-:
+  "state_a",
+  "state_b",
+      :
+      :
 };
 ```
